@@ -1,0 +1,50 @@
+title = "Andy's blog."
+theme = "risotto"
+
+copyright = "© integrated-software 2022"
+baseURL = "/"
+
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "gruvbox-dark"
+mode = "dark-mode"
+
+[params.about]
+title = "My blog."
+description = "A blog powered by hugo and risotto."
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/integrated-software"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10   
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 10
