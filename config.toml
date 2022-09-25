@@ -2,7 +2,7 @@ title = "Andy's blog."
 theme = "risotto"
 
 copyright = "© integrated-software 2022"
-baseURL = "/"
+baseURL = "integrated-software.github.io"
 
 languageCode = "en"
 DefaultContentLanguage = "en"
